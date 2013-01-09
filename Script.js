@@ -4,6 +4,7 @@ Qva.LoadScript(Qva.Remote + (Qva.Remote.indexOf('?') >= 0 ? '&' : '?') + 'public
 function init_QvDial() {
 	Qva.AddExtension('QvDial', function() {
 		var _this = this
+		_this.version = '1.0'
 		_this._uniqueId = _this.Layout.ObjectId.replace("\\","_");
 		_this._variable = getQVStringProp(0) //Variable name
 		_this._minValue = getQVStringProp(1) ? getQVStringProp(1) : 0 //0.3 - 0.8
