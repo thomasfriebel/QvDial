@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Type="object" Label="QvDial" Description="A dialer-like input control">
+	<Text Label="Input variable name" Initial="" Expression="vInput1" />
+	<Text Label="Minimum value" Type="" Initial="" Expression="0" />
+	<Text Label="Maximum value" Type="" Initial="" Expression="100" />
+	<Text Label="Indication color" Type="color" Initial="" Expression="#00FF00" />
+	<Text Label="as cursor" Type="checkbox" Initial="" Expression="0" />
+	<Text Label="Ring color" Type="color" Initial="" Expression="#C0C0C0" />
+<!-- 	<Text Label="Thickness" Initial="" Type="select" Select="0.3,0.4,0.5" SelectLabel="Thin,Normal,Thick" Expression="0.4" /> -->
+	<Text Label="Ring Thickness" Initial="" Expression="normal"/>
+	<Text Label="Ring type (ring,arc)" Initial="" Expression="ring"/>
+	<Text Label="Ring offset (n,e,s,w)" Initial="" Expression="n"/>
+
+	<Dimension Label="Dummy dimension (leave empty for better performance)" Initial=""/>
+
+	<Initiate Name="Caption.Text" Value="QvKnob" />
+	<Initiate Name="Caption.Icon.Print" Value="0" />
+	<Initiate Name="Caption.Icon.SendToExcel" Value="0" />
+	<Initiate Name="Caption.Allow.Minimize" Value="0" />
+	<Initiate Name="Caption.Allow.Maximize" Value="0" />
+	<Initiate Name="Layout.Border.Use" Value="0" />
+	<Initiate Name="Background.UseColor" Value="0" />
+	<Initiate Name="Caption.Show" Value="0" />
+	
+</ExtensionObject>
