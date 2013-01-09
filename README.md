@@ -7,7 +7,7 @@ QvDial
 QvDial is a modern, touch-enabled way to set a numerical value to any variable defined in a QlikView Document.
 This extension is not another chart type, but a control element. It instead is kind of a replacement/addition to the regular slider control. 
 
-Visit http://blog.dijit.de/ for more details and demo stuff.
+Visit http://blog.dijit.de/qvdial-qlikview-extension/ ‎ for more details and demo stuff.
 
 Usage
 =====
