@@ -13,7 +13,7 @@
 
 	<Dimension Label="Dummy dimension (leave empty for better performance)" Initial=""/>
 
-	<Initiate Name="Caption.Text" Value="QvKnob" />
+	<Initiate Name="Caption.Text" Value="QvDial" />
 	<Initiate Name="Caption.Icon.Print" Value="0" />
 	<Initiate Name="Caption.Icon.SendToExcel" Value="0" />
 	<Initiate Name="Caption.Allow.Minimize" Value="0" />

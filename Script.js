@@ -37,11 +37,15 @@ function init_QvDial() {
 			var myDoc = Qv.GetCurrentDocument();
 			var theVar = null
 			myDoc.GetAllVariables(function(vars) {
-				theVar = $.grep(vars, function(elem, idx){
-					return (elem.name == vName)
-				})
-				if (theVar && theVar[0]) {
-					_this._value = theVar[0].value
+				if (vars) {
+					theVar = $.grep(vars, function(elem, idx){
+						return (elem.name == vName)
+					})
+					if (theVar && theVar[0]) {
+						_this._value = theVar[0].value
+					} else {
+						_this._value = 0
+					}
 				} else {
 					_this._value = 0
 				}
