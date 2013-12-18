@@ -3,6 +3,7 @@
 	<Text Label="Input variable name" Initial="" Expression="vInput1" />
 	<Text Label="Minimum value" Type="" Initial="" Expression="0" />
 	<Text Label="Maximum value" Type="" Initial="" Expression="100" />
+	<Text Label="Step width" Type="" Initial="" Expression="1" />
 	<Text Label="Indication color" Type="color" Initial="" Expression="#00FF00" />
 	<Text Label="as cursor" Type="checkbox" Initial="" Expression="0" />
 	<Text Label="Ring color" Type="color" Initial="" Expression="#C0C0C0" />
@@ -11,7 +12,7 @@
 	<Text Label="Ring type (ring,arc)" Initial="" Expression="ring"/>
 	<Text Label="Ring offset (n,e,s,w)" Initial="" Expression="n"/>
 
-	<Dimension Label="Dummy dimension (leave empty for better performance)" Initial=""/>
+	<Dimension Label="Dummy dimension (leave empty for better performance)" Initial="$FieldNo"/>
 
 	<Initiate Name="Caption.Text" Value="QvDial" />
 	<Initiate Name="Caption.Icon.Print" Value="0" />
